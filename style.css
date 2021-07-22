@@ -348,5 +348,9 @@ p {
     #utama{
         grid-template-columns: 100%;
     }
+    
+    #nav-toggle:checked ~ .main-content #utama{
+        grid-template-columns: 100%;
+    }
 }
 
