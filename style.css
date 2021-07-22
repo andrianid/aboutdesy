@@ -352,5 +352,9 @@ p {
     #nav-toggle:checked ~ .main-content #utama{
         grid-template-columns: 100%;
     }
+    
+    #nav-toggle:checked ~ .main-content .search-wrapper{
+        display: none;
+    }
 }
 
